@@ -64,6 +64,12 @@ Step 2: Clone Git Repo and Set Up Working Tree
     $ git clone --recursive git://github.com/puppetlabs/puppetserver
     $ cd puppetserver
 
+Step 2a: Install Git Submodules
+-----
+
+    $ git submodule init
+    $ git submodule update
+
 Step 3: Set up Config Files
 -----
 
